@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Shoe Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Our Latest Collection</h2>
+            <p>Discover the latest trends in footwear.</p>
+            <button><a href="#products">Shop Now</a></button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We provide high-quality shoes for every occasion. Our mission is to deliver comfort and style to our customers.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="shoe1.jpg" alt="Shoe 1">
+                    <h3>Running Shoes</h3>
+                    <p>$50.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="shoe2.jpg" alt="Shoe 2">
+                    <h3>Casual Sneakers</h3>
+                    <p>$40.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="shoe3.jpg" alt="Shoe 3">
+                    <h3>Formal Shoes</h3>
+                    <p>$70.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Shoe Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
