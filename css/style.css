@@ -8890,7 +8890,7 @@ h1, h2, h3, h4, h5,
       .table tbody tr td.product-name .rated span:nth-child(1) {
         color: #000000; }
       .table tbody tr td.product-name .rated span:last-child {
-        color: rgba(0, 0, 0, 0.1); }
+        color: #ffc107; }
     .table tbody tr td.price {
       text-align: center !important;
       background: rgba(0, 0, 0, 0.05);
